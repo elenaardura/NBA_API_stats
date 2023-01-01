@@ -341,7 +341,7 @@ if __name__ == "__main__": # Defino el proceso principal con la estructura de ET
     url_stats = "https://api.sportsdata.io/v3/nba/stats/json/PlayerSeasonStatsByTeam/2023/BKN"
     url_players = "https://api.sportsdata.io/v3/nba/scores/json/Players/BKN"
     
-    clave = "XXXXXXXXXX"  # Escribo la clave personal de acceso a las api
+    clave = "XXXXXXXXXX"  # Escribo la clave personal de acceso a las api sustituyendolas por las x y sin espacios
     headers = {"Ocp-Apim-Subscription-Key": clave} # Establezco las headers necesarias para acceder a las apis 
     response, response2 = extract(url_stats, url_players, headers) # Extraigo los datos
     caracteristicas_jugador, info_stats = transform(response, response2) # Transformo los datos
