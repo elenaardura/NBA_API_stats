@@ -26,8 +26,7 @@ fotos_equipo = ["https://cdn.nba.com/headshots/nba/latest/1040x760/1626220.png?i
                 "https://cdn.nba.com/headshots/nba/latest/1040x760/1630560.png?imwidth=1040&imheight=760", 
                 "https://cdn.nba.com/headshots/nba/latest/1040x760/203552.png?imwidth=1040&imheight=760", 
                 "https://cdn.nba.com/headshots/nba/latest/1040x760/1631214.png?imwidth=1040&imheight=760", 
-                "https://cdn.nba.com/headshots/nba/latest/1040x760/1629651.png?imwidth=1040&imheight=760"
-                ]
+                "https://cdn.nba.com/headshots/nba/latest/1040x760/1629651.png?imwidth=1040&imheight=760"]
 
 # Defino el diccionario con las abreviaturas de las columnas de las distintas tablas
 abreviaturas = {'Name': 'Name', 'Games': 'G', 'Time': 'T', 'PersonalFouls': 'PF', 'Rebounds': 'R', 'Assists': 'A', 'Steals': 'S', 'BlockedShots': 'Blk', 'Points': 'Pts', 'PlusMinus': '+/-',
